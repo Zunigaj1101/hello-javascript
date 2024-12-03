@@ -111,12 +111,12 @@ esta operacion me duevelve los elementos modificados
 
 sintaxis:splice(start, deleteCount, item1) 
 start = desde que indice empieza a elminar
-deleteconut =  cuantos valores va a borrar
-*/
+deleteconut =  cuantos valores va a borrar */
+
 myArray.splice() // sin parametro no mifica nada
 myArray.splice (2) // si solo se indica el inicio, elimina todos los elementos restantes
 myArray.splice(2, 2) // indico desde que indice empieza a eliminar y cuantos elementos va a eliminar
-myArray.splice (0,2, 'Jose', 5, 9) // eliminar los elemento, en el mismo indice me agrega x numero de elementos
+myArray.splice (0,2, 'Jose', 5, 9) //en el mismo indice me agrega x numero de elementos
 myArray.splice (myArray.length,0, 7,8,9) // indico que me agregue elementos al final del array
 myArray.splice (0,0,-1,0) //indico que se agreguen dos elemento al inicio del array
 console.log (myArray)
