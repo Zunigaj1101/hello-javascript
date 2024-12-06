@@ -59,7 +59,7 @@ mes.has(5) ? console.log(mes.get(5)): console.log('ERROR')
 
 // 9. Añade al mapa una clave con un array que almacene los meses de verano
 
-mes.set (12, ['frebrero','marzo','abril'])
+mes.set ('verano', ['frebrero','marzo','abril'])
 
 console.log (mes)
 
