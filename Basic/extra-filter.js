@@ -6,3 +6,11 @@ let newArray = array.filter(numero => numero % 2 === 0)// crea un nuevo array to
 // osea solo los elementos que se dividen entre 2 y no dejan residuos.
 
 console.log (newArray)
+
+
+// map ()
+// el metodo map () toma los elementos de un array existente, los transforma y lo añade a un nuevo array.
+
+newArray = array.map (value => value * 2) // multiplica por dos cada valor del array
+
+console.log (newArray)
