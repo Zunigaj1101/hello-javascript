@@ -136,7 +136,18 @@ function factorial(n) {
 
     for (let i = 1; i <= n ; i++) {
         resultado *= i;
-    }  console.log (resultado)
+    }
+    return resultado;
+}
+console.log (factorial (5))
+
+
+// alternativa recursiva
+function factorial2(n) {
+    if (n === 0 || n === 1) {
+        return 1;
+    } 
+    return n * factorial2(n - 1);
 }
 
-factorial (5)
+console.log(factorial2(5)); // Output: 120
