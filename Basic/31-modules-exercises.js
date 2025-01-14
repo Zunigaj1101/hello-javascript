@@ -68,5 +68,7 @@ console.log (myClass.area())
 // 9. Exporta una función, una constante y una clase desde una carpeta
 
 
-
 // 10. Importa una función, una constante y una clase desde un directorio diferente al anterior
+
+import {Person3, name2, add2 } from "../Export/example-exercises.js"
+
